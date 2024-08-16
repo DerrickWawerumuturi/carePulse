@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "@layer"
+        ]
+      }
+    ],
+    "typescript-config/consistent-casing": "off",
+    "no-inline-styles": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 126",
+    "not chrome <= 126",
+    "not edge <= 126",
+    "not opera <= 111",
+    "not samsung <= 25"
+  ]
+}
